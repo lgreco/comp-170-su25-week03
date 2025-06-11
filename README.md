@@ -30,4 +30,4 @@ The amount of $1,276.27 is the compound interest for this specific example. Your
 
 # Reflect
 
-Review the posted solutions from the previous assignment. Compare the posted solutions with your solutions. Notice the differences between your code and the solutions code and describe them. Trivial differences like the names of variables are not that important -- unless your names are really - I mean, *really -* weird.
+Review the posted solutions from the previous assignment. Compare the posted solutions with your solutions. Notice the differences between your code and the solutions code and describe them. Trivial differences like the names of variables are not that important unless your names are really - I mean, *really -* weird.
