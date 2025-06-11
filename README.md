@@ -37,7 +37,7 @@ Write a function `compound_interst` that computes the compound interest for a gi
 * 4th year: $1,157.62 principal + $1,157.62 x 0.05 interest = $1,215.50
 * 5th year = $1,215.50 principal + $1,215.50 x 0.05 interest = $1,276.27
 
-The amount of $1,276.27 is the compound interest for this specific example. Your function *should not use* any exponential operations.
+The amount of $1,276.27 is the compound interest for this specific example. Your function *should not use* any exponential operations. Just loops, additions, and multiplications.
 
 ## Hollow square 
 
