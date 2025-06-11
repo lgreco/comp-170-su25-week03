@@ -1,19 +1,4 @@
-"""
-Function to greet a person
-Write a function named greet that takes one argument, say name, and returns a greeting string. For example, greet("Thomas") should return the string:
 
-Hello Thomas. How are you?
-Greet a few friends
-Create a simple list (not a dictionary) with the names of some friends. For example:
-
-my_friends = ["Frodo", "Sam", "Gandalf"]
-Then write a function that takes the list of friends and prints a greeting for every one of them using function greet(name) from earlier.
-
-Solve an equation
- the equation has no solutions among real numbers (and we don't want to deal with complex numbers, at least not yet.
-
-Write a function called solve_quadratic that takes three arguments, a, b, and c, and prints the solutions to the quadratic equation or prints the message "no real solutions".
-"""
 
 def greet(name: str) -> str:
   return f"Hello {name}. How re you?"
