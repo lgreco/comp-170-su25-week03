@@ -1,36 +1,21 @@
-# COMP 170 SU25 WEEK 02
+# COMP 170 SU25 WEEK 03
 
-For this week's assignment focus on last week's reading assignment and work on the following items.
+For this week's assignment focus on parameterized functions.
 
-## Function to greet a person
+## Right triangle
 
-Write a function named `greet` that takes one argument, say `name`, and **returns** a greeting string. For example, `greet("Thomas")` should **return** the string:
-```
-Hello Thomas. How are you?
-```
+Write a function `draw_right_triangle` that draws a right angle triangle whose height is specified as a parameter to the function.
 
-## Greet a few friends
+## Diamond shape
 
-Create a simple list (not a dictionary) with the names of some friends. For example:
-```python
-my_friends = ["Frodo", "Sam", "Gandalf"]
-```
-Then write a function that takes the list of friends and **prints** a greeting for every one of them using function `greet(name)` from earlier.
+Write a function `draw_diamond` that draws a diamond shape of a specified height passed as a parameter to the function.
 
-## Solve an equation
+## Compound interest
 
-The quadratic equation is defined as $ax^2+bx+c=0$. When $b^2-4ac< 0$ the equation has no solutions among real numbers (and we don't want to deal with *complex numbers,* at least not yet. 
+Write a function `compound_interst` that computes the compound interest for a given amount, a given annual interest rate, and a given period of time. For example, over a 5 year period, an initial investment of $1,000, earning 5% interest will accumulate as follows:
 
-When however,  $b^2-4ac\geq 0$ the solutions to the equation are
-
-$$
-x_1 = \frac{-b-\sqrt{b^2-4ac}}{2a}
-$$
-
-and
-
-$$
-x_2 = \frac{-b+\sqrt{b^2-4ac}}{2a}
-$$
-
-Write a function called `solve_quadratic` that takes three arguments, `a`, `b`, and `c`, and **prints** the solutions to the quadratic equation or prints the message "no real solutions".
+* 1st year: $1,000 principal + $1,000 x 0.05 interest = $1,050
+* 2nd year: $1,050 principal + $1,050 x 0.05 interest = $1,102.50
+* 3rd year: $1,102.50 principal + $1,102.50 x 0.05 interest = $1,157.62
+* 4th year: $1,157.62 principal + $1,157.62 x 0.05 interest = $1,215.50
+* 5th year = $1,215.50 principal + $1,215.50 x 0.05 interest = $1,276.27
