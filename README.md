@@ -56,4 +56,4 @@ Write a function `draw_hollow_square` that draws a square that is empty in the m
 
 # Reflect
 
-Review the posted solutions from the previous assignment. Compare the posted solutions with your solutions. Notice the differences between your code and the solutions code and describe them. Trivial differences like the names of variables are not that important unless your names are really - I mean, *really -* weird.
+Review the posted [solutions from the previous assignment](./solutions.py). Compare the posted solutions with your solutions. Notice the differences between your code and the solutions code and describe them. Trivial differences like the names of variables are not that important unless your names are really - I mean, *really -* weird.
