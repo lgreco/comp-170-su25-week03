@@ -8,13 +8,24 @@ There is no final exam for the course. There will be a final assignemnt that wil
 
 # Code
 
+## Diamond shape
+
+Write a function `draw_diamond` that draws a diamond shape of a specified height passed as a parameter to the function. To solve this problem, first think what instructions you'll give someone drawing the diamong by pressing three keys on their keyboard: the space key, the hash mark key, and the enter key. For example, here's a 5-lines diamond and the keyboard instructions. It's important to *discover* if there is a connection between the line number and the number of spaces and hash marks (hint: there is).
+
+```text
+  #     : 1st line : space space hash enter
+ ###    : 2nd line : space hash hash hash enter
+#####   : 3rd line : hash hash hash hash hash enter
+ ###    : 4th line : space hash hash hash enter
+  #     : 5th line : space space hash enter
+```
+
+Solve this problem on paper first. Avoid the temptation to ask AI or to search online for a solution. It is an easy problem to code and the internet is full of solutions. This exercise however is about designing the solution on paper. Take out a piece of paper. Draw a few vertical and horizontal lines creating a square grid. Fill the squares to produce a diamond shape. Count the number of empty squares (spaces) and the number of filled squares (hashmarks) and discover how they relate to the line you are on (first line, second line etc.)
+
 ## Right triangle
 
 Write a function `draw_right_triangle` that draws a right angle triangle whose height is specified as a parameter to the function.
 
-## Diamond shape
-
-Write a function `draw_diamond` that draws a diamond shape of a specified height passed as a parameter to the function.
 
 ## Compound interest
 
@@ -27,6 +38,21 @@ Write a function `compound_interst` that computes the compound interest for a gi
 * 5th year = $1,215.50 principal + $1,215.50 x 0.05 interest = $1,276.27
 
 The amount of $1,276.27 is the compound interest for this specific example. Your function *should not use* any exponential operations.
+
+## Hollow square 
+
+Write a function `draw_hollow_square` that draws a square that is empty in the middle. The size of the square's and the thickness of its edge should be given as parameters. For example `draw_hollow_square(8,2)` should produce the following drawing:
+
+```text
+########
+########
+##    ## 
+##    ## 
+##    ## 
+##    ##  
+########
+########
+```
 
 # Reflect
 
