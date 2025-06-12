@@ -57,3 +57,27 @@ Write a function `draw_hollow_square` that draws a square that is empty in the m
 # Reflect
 
 Review the posted [solutions from the previous assignment](./solutions.py). Compare the posted solutions with your solutions. Notice the differences between your code and the solutions code and describe them. Trivial differences like the names of variables are not that important unless your names are really - I mean, *really -* weird.
+
+## Frequent mistakes expected at this point
+
+**Returning an *f-string* without understanding how it works.** Function `greet` has only one statement:
+```python
+return f"Hello {name}. How are you?"
+```
+Do you really understand what the f-string is and how it works? Can you explain it during an interview? Using code that you are not certain about can cause problems. It's fine to look up how others solve similar problems -- it's important however that you understand how the solution works and be in position to describe your understading.
+
+**Iterating over a list without understanding how the `for` statement works.** Or, for that matter, how lists work. For-loops and lists are two core topics in programming. Everyone will expect you to know how the work and to be able to describe their functionality.
+
+**Repeating arithmetic operations.** When solving the quadratic equation, the quantity $b^2-4ac$ plays a major role. If the equation has real solutions, we use the quantity (called the *discriminant)* in three places. We don't have to evaluate it everytime, i.e., we do not have to perform the operation `b*b-4*a*c` in three different places. That's where using a variable comes handy. We can define a variable
+```python
+discriminant = b*b - 4*a*c
+``` 
+and use it as needed without repeating the arithmetic.
+
+
+## Read more about:
+
+* [Type hints in Python](https://docs.python.org/3/library/typing.html); also useful [cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html#functions)
+* [f-strings in Python](https://docs.python.org/3/tutorial/inputoutput.html#tut-f-strings)
+* [lists in Python](https://docs.python.org/3/tutorial/datastructures.html)
+* [the for statement](https://docs.python.org/3/reference/compound_stmts.html#for) and [for loop over a list in Python](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
