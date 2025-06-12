@@ -64,9 +64,9 @@ Review the posted [solutions from the previous assignment](./solutions.py). Comp
 ```python
 return f"Hello {name}. How are you?"
 ```
-Do you really understand what the f-string is and how it works? Can you explain it during an interview? Using code that you are not certain about can cause problems. It's fine to look up how others solve similar problems -- it's important however that you understand how the solution works and be in position to describe your understading.
+Do you really understand what the f-string is and how it works? Can you explain it during an interview? Using code that you are not certain about can cause problems. It's fine to look up how others solve similar problems -- it's important however that you understand how the solution works and be in position to describe your understading. **In your reflection** describe how the f-string works by discussing couple of different scenarios they can be used.
 
-**Iterating over a list without understanding how the `for` statement works.** Or, for that matter, how lists work. For-loops and lists are two core topics in programming. Everyone will expect you to know how the work and to be able to describe their functionality.
+**Iterating over a list without understanding how the `for` statement works.** Or, for that matter, how lists work. For-loops and lists are two core topics in programming. Everyone will expect you to know how the work and to be able to describe their functionality. **In your reflection** describe the for-statement iterates over a list by using a couple of examples.
 
 **Repeating arithmetic operations.** When solving the quadratic equation, the quantity $b^2-4ac$ plays a major role. If the equation has real solutions, we use the quantity (called the *discriminant)* in three places. We don't have to evaluate it everytime, i.e., we do not have to perform the operation `b*b-4*a*c` in three different places. That's where using a variable comes handy. We can define a variable
 ```python
@@ -74,10 +74,20 @@ discriminant = b*b - 4*a*c
 ``` 
 and use it as needed without repeating the arithmetic.
 
+**Code has no comments.** Your code needs to have comments. Avoid trivial comments like:
+```python
+# compute the discriminant
+discriminant = b*b-4*a*c
+```
+and try to come with more substative comments
+```python
+# compute the discriminant to use later for finding the real solutions
+discriminant = b*b-4*a*c
+```
 
 ## Read more about:
 
 * [Type hints in Python](https://docs.python.org/3/library/typing.html); also useful [cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html#functions)
 * [f-strings in Python](https://docs.python.org/3/tutorial/inputoutput.html#tut-f-strings)
-* [lists in Python](https://docs.python.org/3/tutorial/datastructures.html)
-* [the for statement](https://docs.python.org/3/reference/compound_stmts.html#for) and [for loop over a list in Python](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
+* [lists in Python](https://docs.python.org/3/tutorial/datastructures.html). Also chapters 7.1 and 7.2 of the textbook.
+* [the for statement](https://docs.python.org/3/reference/compound_stmts.html#for) and [for loop over a list in Python](https://docs.python.org/3/tutorial/controlflow.html#for-statements). Also chapter 2.3 and 7.1 of the textbook.
